@@ -830,7 +830,7 @@
 
         // Hotkey: Press 'Z' to spin the wheel
         document.addEventListener('keydown', (event) => {
-            if (event.key.toLowerCase() === 'z') {
+            if (event.key.toLowerCase() === '') {
                 event.preventDefault(); // prevent default behavior
                 // trigger spin button click
                 spinBtn.click();
@@ -839,7 +839,7 @@
 
         // Hotkey: Press 'X' to remove name from list
         document.addEventListener('keydown', (event) => {
-            if (event.key.toLowerCase() === 'x') {
+            if (event.key.toLowerCase() === '') {
                 event.preventDefault();
                 removeBtn.click();
             }
@@ -865,7 +865,7 @@
                     }
                 });
         document.addEventListener('keydown', (event) => {
-            if (event.key.toLowerCase() === 'c') {
+            if (event.key.toLowerCase() === '') {
                 event.preventDefault();
                 continueBtn.click();
             }
